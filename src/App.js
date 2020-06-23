@@ -1,14 +1,11 @@
 import React from 'react';
+import Header from './Header/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          My new portfolio!
-        </p>
-      </header>
+      <Header />
     </div>
   );
 }
