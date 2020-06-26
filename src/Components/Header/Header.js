@@ -4,14 +4,14 @@ import './Header.css';
 function Header() {
 	return (
 		<header className='Header'>
-			<span>Gage Eide</span>
-			<div>
+			<span className='name'>gage eide</span>
+			<div className='link-container'>
 				<span>About</span>
 				<span>Projects</span>
 				<span>Contact</span>
 			</div>
 		</header>
-	)
+	);
 }
 
 export default Header;

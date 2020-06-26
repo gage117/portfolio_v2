@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Andes';
+	src: URL('../../Fonts/Andes.ttf') format('truetype');
+}
+
+.Header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 35px 10px 15px;
+}
+
+.Header, span {
+	font-family: 'Andes';
+	font-size: 2.6rem;
+}
+
+.Header > .name {
+	font-size: 3rem;
+}
+
+.link-container {
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	padding: 10px 0 10px;
+}
+
+.link-container > * {
+	margin: 0 5px;
+}
+
+@media screen and (min-width: 600px) {
+	.link-container {
+		width: auto;
+		position: static;
+	}
+}

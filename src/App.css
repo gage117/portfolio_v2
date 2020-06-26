@@ -11,3 +11,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.App > p {
+  height: 100vh;
+  font-size: 2rem;
+}
