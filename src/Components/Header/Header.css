@@ -19,7 +19,7 @@
 	font-size: 3rem;
 }
 
-.link-container {
+.Header > .link-container {
 	position: fixed;
 	display: flex;
 	justify-content: space-around;
@@ -27,14 +27,15 @@
 	bottom: 0;
 	right: 0;
 	padding: 10px 0 10px;
+	background-color: white;
 }
 
-.link-container > * {
+.Header > .link-container > * {
 	margin: 0 5px;
 }
 
 @media screen and (min-width: 600px) {
-	.link-container {
+	.Header > .link-container {
 		width: auto;
 		position: static;
 	}
