@@ -2,11 +2,8 @@
   background-color: #ffffff;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@media screen and (max-width: 600px) {
+	.App {
+    height: calc(100vh - 4.3rem);
+  }
 }

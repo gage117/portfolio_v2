@@ -13,6 +13,7 @@ function About() {
 					//? Icons
 					//? On hover or on click: expand icon, display text of technology name
 				}
+				<p>Skills</p>
 			</div>
 		</section>
 	);
