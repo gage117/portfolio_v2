@@ -1,5 +1,6 @@
 .App {
   background-color: #ffffff;
+  overflow-y: scroll;
 }
 
 @media screen and (max-width: 600px) {
