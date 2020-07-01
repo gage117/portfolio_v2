@@ -9,7 +9,10 @@ function About() {
 			<p className='intro-2' data-aos='fade-in'>{'I\'m'} a Full Stack Software Engineer specializing in React, Node, Postgres, and Express.</p>
 			<img src={headshot} className='headshot' alt='headshot' />
 			<div className='skills' data-aos='fade-in'>
-				
+				{
+					//? Icons
+					//? On hover or on click: expand icon, display text of technology name
+				}
 			</div>
 		</section>
 	);
