@@ -1,5 +1,9 @@
 import React from 'react';
 import './Contact.css';
+// Icons
+import githubIcon from '../../Images/github.png';
+import linkedinIcon from '../../Images/linkedin.png';
+import gmailIcon from '../../Images/gmail.png';
 
 function Contact() {
 	return (
@@ -8,9 +12,9 @@ function Contact() {
 				<p>Contact Links</p>
 			</div>
 			<div className="contact-info">
-				<a href="https://github.com/gage117" rel='noopener noreferrer' target="_blank"><img src="src\Images\github-height100px.png" alt="Github logo" /></a>
-				<a href="https://www.linkedin.com/in/gage-eide/" rel='noopener noreferrer' target="_blank"><img src="images/linkedin-height100px.png" alt="LinkedIn logo" /></a>
-				<a href="mailto:gageeide@gmail.com" rel='noopener noreferrer' target="_blank"><img src="images/gmail-height100px.png" alt="email logo" /></a>
+				<a href="https://github.com/gage117" rel='noopener noreferrer' target="_blank"><img src={githubIcon} alt="Github logo" /></a>
+				<a href="https://www.linkedin.com/in/gage-eide/" rel='noopener noreferrer' target="_blank"><img src={linkedinIcon} alt="LinkedIn logo" /></a>
+				<a href="mailto:gageeide@gmail.com" rel='noopener noreferrer' target="_blank"><img src={gmailIcon} alt="Gmail logo" /></a>
 			</div>
 		</footer>
 	);

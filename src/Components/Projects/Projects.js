@@ -8,7 +8,7 @@ function Projects() {
 		<div className='projects'>
 			<p className='projects-header'>Latest Projects</p>
 			<hr />
-			{projectList.map(project => <Project project={project} />)}
+			{projectList.map((project, index) => <Project key={index} project={project} />)}
 		</div>
 	);
 }
