@@ -5,7 +5,7 @@ const projectList = [
 	{
 		name: 'Katia',
 		screenshot: katiaScreenshot,
-		description: 'Katia is a social media platform created to help gamers find new teammates in a much less random and impersonal way than traditional in-game matchmaking. Find players that play the games you play and on the platforms you own. Avatars are stored using AWS S3 buckets and live messaging implemented with Socket.IO',
+		description: 'A social media platform created to help gamers find new teammates in a much less random and impersonal way than traditional in-game matchmaking. Find players that play the games you play and on the platforms you own. Avatars are stored using AWS S3 buckets and live messaging implemented with Socket.IO.',
 		repos: {
 			client: 'https://github.com/gage117/Katia-client',
 			server: 'https://github.com/gage117/Katia-API',

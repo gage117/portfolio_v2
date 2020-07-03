@@ -3,10 +3,11 @@ import React from 'react';
 function Project(props) {
 	const {name, screenshot, description, repos, techStack} = props.project;
 	return (
-		<div key={name}>
-			<p>{name}</p>
+		<div key={name} className='project'>
+			<p className='name'>{name.toLowerCase()}</p>
 			<img src={screenshot} alt={`${name} screenshot`} />
-			<p>{description}</p>
+			<p className='description'>{description}</p>
+			<hr />
 		</div>
 	);
 }
