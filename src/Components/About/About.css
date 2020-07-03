@@ -18,3 +18,9 @@
 	width: 250px;
 	margin: 20px auto 0;
 }
+
+.skills-header {
+	margin-top: 60px;
+	font-size: 3rem;
+	font-weight: bold;
+}
