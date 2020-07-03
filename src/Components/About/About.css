@@ -16,7 +16,8 @@
 .headshot {
 	display: block;
 	width: 250px;
-	margin: 20px auto 0;
+	margin: 20px 0 0;
+	border-radius: 4px;
 }
 
 .skills-header {
