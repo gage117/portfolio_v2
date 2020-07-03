@@ -1,6 +1,6 @@
 #About {
-	margin: 40px auto 0;
-	padding: 0 20px;
+	margin: 50px auto 0;
+	padding: 0 16px;
 }
 
 .intro {
@@ -8,7 +8,7 @@
 }
 
 .intro-2 {
-	margin-top: 20px;
+	margin-top: 30px;
 	font-size: 2.8rem;
 	font-weight: 800;
 }
@@ -16,12 +16,20 @@
 .headshot {
 	display: block;
 	width: 250px;
-	margin: 20px 0 0;
+	margin: 40px 0 0;
 	border-radius: 4px;
 }
 
 .skills-header {
 	margin-top: 60px;
-	font-size: 3rem;
+	font-size: 3.4rem;
 	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 5px;
+}
+
+.skills {
+	background-color: lightgray;
+	font-size: 2rem;
+	padding: 10px;
 }
