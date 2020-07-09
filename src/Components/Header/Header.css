@@ -6,6 +6,7 @@
 .Header {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	padding: 10px 35px 10px 15px;
 	box-shadow: 0 6px 30px 2px rgba(0,0,0,.03), 0 3px 15px 1px rgba(0,0,0,.02), 0 1px 8px 1px rgba(0,0,0,.01);
 }
@@ -17,6 +18,12 @@
 
 .Header > .name {
 	font-size: 3rem;
+	background-image: linear-gradient(90deg,#ff8d4d,#f4494e);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
 }
 
 .Header > .link-container {
