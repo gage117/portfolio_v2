@@ -7,8 +7,6 @@ import Contact from './Components/Contact/Contact';
 // Animate on Scroll
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// App CSS file
-import './App.css';
 
 // Initialize Animate on Scroll
 AOS.init();

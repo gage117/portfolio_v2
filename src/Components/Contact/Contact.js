@@ -1,5 +1,4 @@
 import React from 'react';
-import './Contact.css';
 // Icons
 import githubIcon from '../../Images/github.png';
 import linkedinIcon from '../../Images/linkedin.png';

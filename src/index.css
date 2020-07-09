@@ -9,15 +9,149 @@ html {
 }
 
 @font-face {
-	font-family: 'Bougan';
-	src: URL('./Fonts/Bougan.ttf') format('truetype');
+  font-family: "Bougan";
+  src: URL("./Stylesheets/Fonts/Bougan.ttf") format("truetype");
 }
-
 body {
   margin: 0;
-  font-family: 'Bougan', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Bougan", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#About {
+  margin: 50px auto 0;
+  padding: 0 16px;
+}
+
+.intro {
+  font-size: 2.6rem;
+}
+
+.intro-2 {
+  margin-top: 30px;
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+
+.headshot {
+  display: block;
+  width: 250px;
+  margin: 40px 0 0;
+  border-radius: 4px;
+}
+
+.skills-header {
+  margin-top: 60px;
+  font-size: 3.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+
+.skills {
+  background-color: lightgray;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.App {
+  background-color: #ffffff;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    height: calc(100vh - 4.3rem);
+  }
+}
+@font-face {
+  font-family: "Andes";
+  src: URL("./Stylesheets/Fonts/Andes.ttf") format("truetype");
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 35px 10px 15px;
+  box-shadow: 0 6px 30px 2px rgba(0, 0, 0, 0.03), 0 3px 15px 1px rgba(0, 0, 0, 0.02), 0 1px 8px 1px rgba(0, 0, 0, 0.01);
+}
+
+.Header, span {
+  font-family: "Andes";
+  font-size: 2.6rem;
+}
+
+.Header > .name {
+  font-size: 3rem;
+  background-image: linear-gradient(90deg, #ff8d4d, #f4494e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.Header > .link-container {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  padding: 10px 0 10px;
+  background-color: white;
+}
+
+.Header > .link-container > * {
+  margin: 0 5px;
+}
+
+@media screen and (min-width: 600px) {
+  .Header > .link-container {
+    width: auto;
+    position: static;
+  }
+}
+/* Container styles */
+.projects {
+  padding: 0 16px;
+  margin-top: 60px;
+}
+
+.projects-header {
+  font-size: 3.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+
+/* Individual project styles */
+.project {
+  margin-top: 40px;
+}
+
+.project > .name {
+  text-align: center;
+  font-family: "Andes";
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.project > img {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.project > .description {
+  margin-top: 20px;
+  font-size: 2.4rem;
+}
+
+.project > hr {
+  margin: 20px auto 0;
+  width: 75%;
+}
+
+/*# sourceMappingURL=index.css.map */
