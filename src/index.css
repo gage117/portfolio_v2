@@ -101,6 +101,17 @@ body {
 }
 .Header > .link-container > * {
   margin: 0 5px;
+  background-clip: border-box;
+  transition: -webkit-text-fill-color 0.5s, -moz-text-fill-color 0.5s;
+}
+.Header > .link-container > *:hover {
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #ff8d4d, #f4494e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 @media screen and (min-width: 600px) {
   .Header > .link-container {
