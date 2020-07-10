@@ -8,7 +8,7 @@ function Contact() {
 	return (
 		<footer>
 			<div id="contact-links">
-				<p>Contact Links</p>
+				<p>Contact Me</p>
 			</div>
 			<div className="contact-info">
 				<a href="https://github.com/gage117" rel='noopener noreferrer' target="_blank"><img src={githubIcon} alt="Github logo" /></a>

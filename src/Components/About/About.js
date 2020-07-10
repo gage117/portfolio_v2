@@ -4,12 +4,12 @@ import headshot from '../../Images/Headshot_cropped.jpg';
 function About() {
 	return (
 		<section id='About'>
-			<div className='bio'>
+			<div className='bio' data-aos='fade-in'>
 				<div>
-					<p className='intro' data-aos='fade-in'>Hi, my name is Gage!</p>
-					<p className='intro-2' data-aos='fade-in'>{'I\'m'} a Full Stack Software Engineer specializing in React, Node, Postgres, and Express.</p>
+					<p className='intro'>Hi, my name is Gage!</p>
+					<p className='intro-2'>{'I\'m'} a Full Stack Software Engineer specializing in React, Node, Postgres, and Express.</p>
 				</div>
-				<img src={headshot} className='headshot' alt='headshot' data-aos='fade-in' />
+				<img src={headshot} className='headshot' alt='headshot' />
 			</div>
 			<p className='skills-header' data-aos='fade-in'>Skills</p>
 			<hr />
