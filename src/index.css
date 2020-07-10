@@ -181,6 +181,10 @@ footer .contact-info {
   #About {
     padding: 0 25px;
   }
+
+  #Projects {
+    padding: 0 25px;
+  }
 }
 @media screen and (min-width: 700px) {
   .bio {
