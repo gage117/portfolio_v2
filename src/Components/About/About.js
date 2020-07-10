@@ -3,7 +3,7 @@ import headshot from '../../Images/Headshot_cropped.jpg';
 
 function About() {
 	return (
-		<section id='About' data-aos='fade-in'>
+		<section id="About" data-aos='fade-in'>
 			<div className='bio'>
 				<div>
 					<p className='intro'>Hi, my name is Gage!</p>

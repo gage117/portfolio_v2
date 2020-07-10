@@ -64,6 +64,7 @@ body {
 .App {
   background-color: #ffffff;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 footer {
@@ -89,19 +90,23 @@ footer .contact-info > * > img {
   font-family: "Andes";
   src: URL("./Stylesheets/Fonts/Andes.ttf") format("truetype");
 }
-.Header {
+#Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 35px 10px 15px;
   box-shadow: 0 6px 30px 2px rgba(0, 0, 0, 0.03), 0 3px 15px 1px rgba(0, 0, 0, 0.02), 0 1px 8px 1px rgba(0, 0, 0, 0.01);
 }
-.Header span {
+#Header a {
+  text-decoration: none;
+  color: black;
   font-family: "Andes";
   font-size: 26px;
 }
-.Header > .name {
+#Header > .name {
+  font-family: "Andes";
   font-size: 30px;
+  letter-spacing: 2px;
   background-image: linear-gradient(90deg, #ff8d4d, #f4494e);
   background-clip: text;
   -webkit-background-clip: text;
@@ -109,7 +114,7 @@ footer .contact-info > * > img {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-.Header > .link-container {
+#Header > .link-container {
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -120,12 +125,12 @@ footer .contact-info > * > img {
   padding: 10px 0 10px;
   background-color: white;
 }
-.Header > .link-container > * {
+#Header > .link-container > * {
   margin: 0 5px;
   background-clip: border-box;
   transition: -webkit-text-fill-color 0.5s, -moz-text-fill-color 0.5s;
 }
-.Header > .link-container > *:hover {
+#Header > .link-container > *:hover {
   cursor: pointer;
   background-image: linear-gradient(90deg, #ff8d4d, #f4494e);
   background-clip: text;
@@ -178,7 +183,7 @@ footer .contact-info > * > img {
   }
 }
 @media screen and (min-width: 600px) {
-  .Header > .link-container {
+  #Header > .link-container {
     width: auto;
     position: static;
   }

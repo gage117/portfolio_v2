@@ -6,7 +6,7 @@ import gmailIcon from '../../Images/gmail.png';
 
 function Contact() {
 	return (
-		<footer>
+		<footer id="Contact">
 			<div id="contact-links">
 				<p>Contact Me</p>
 			</div>

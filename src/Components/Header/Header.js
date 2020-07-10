@@ -2,12 +2,12 @@ import React from 'react';
 
 function Header() {
 	return (
-		<header className='Header'>
-			<span className='name'>gage eide</span>
+		<header id='Header'>
+			<span className='name'>gage e<span className="i-fix">i</span>de</span>
 			<div className='link-container'>
-				<span>About</span>
-				<span>Projects</span>
-				<span>Contact</span>
+				<a href='#Header'>About</a>
+				<a href='#Projects'>Projects</a>
+				<a href='#Contact'>Contact</a>
 			</div>
 		</header>
 	);

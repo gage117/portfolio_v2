@@ -7,7 +7,7 @@
 
 @media screen and (min-width: 600px) {
 	// Switch links from bottom of screen to top
-	.Header > .link-container {
+	#Header > .link-container {
 		width: auto;
 		position: static;
 	}
