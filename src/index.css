@@ -72,12 +72,17 @@ footer {
 }
 footer #contact-links {
   text-align: center;
-  font-size: 2.4rem;
+  padding-top: 20px;
+  font-size: 3.4rem;
+  font-weight: bold;
 }
 footer .contact-info {
-  padding: 10px;
+  padding: 12.5px 0 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+footer .contact-info > * > img {
+  height: 65px;
 }
 
 @font-face {
