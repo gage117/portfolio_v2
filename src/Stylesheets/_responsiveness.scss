@@ -1,20 +1,29 @@
 @media screen and (max-width: 600px) {
+	// Reset App height to offset header
 	.App {
 		height: calc(100vh - 4.3rem);
 	}
-  
-  .link-container {
+	// Switch links from bottom of screen to top
+	.link-container {
+		width: auto;
+		position: static;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	// Switch links from bottom of screen to top
+	.Header > .link-container {
 		width: auto;
 		position: static;
 	}
 }
 
 @media screen and (min-width: 750px) {
-	.headshot {
-		margin: 0 20px 0 0;
-	}
 	.bio {
 		flex-direction: row-reverse;
 		align-items: center;
+	}
+	.headshot {
+		margin: 0 20px 0 0;
 	}
 }
