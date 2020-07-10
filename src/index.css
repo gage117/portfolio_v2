@@ -131,7 +131,7 @@ footer .contact-info {
 }
 
 /* Container styles */
-.projects {
+#Projects {
   padding: 0 16px;
   margin-top: 60px;
 }
@@ -147,26 +147,22 @@ footer .contact-info {
 .project {
   margin-top: 40px;
 }
-
-.project > .name {
+.project .name {
   text-align: center;
   font-family: "Andes";
   font-size: 4rem;
   letter-spacing: 1px;
 }
-
-.project > img {
+.project img {
   margin-top: 20px;
   width: 100%;
   height: auto;
 }
-
-.project > .description {
+.project .description {
   margin-top: 20px;
   font-size: 2.4rem;
 }
-
-.project > hr {
+.project hr {
   margin: 20px auto 0;
   width: 75%;
 }
