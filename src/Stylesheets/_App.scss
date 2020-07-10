@@ -2,9 +2,3 @@
   background-color: #ffffff;
   overflow-y: scroll;
 }
-
-@media screen and (max-width: 600px) {
-	.App {
-    height: calc(100vh - 4.3rem);
-  }
-}

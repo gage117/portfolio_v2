@@ -61,26 +61,11 @@ body {
   padding: 10px;
 }
 
-@media screen and (min-width: 750px) {
-  .headshot {
-    margin: 0 20px 0 0;
-  }
-
-  .bio {
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-}
 .App {
   background-color: #ffffff;
   overflow-y: scroll;
 }
 
-@media screen and (max-width: 600px) {
-  .App {
-    height: calc(100vh - 4.3rem);
-  }
-}
 @font-face {
   font-family: "Andes";
   src: URL("./Stylesheets/Fonts/Andes.ttf") format("truetype");
@@ -129,12 +114,6 @@ body {
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
-@media screen and (min-width: 600px) {
-  .Header > .link-container {
-    width: auto;
-    position: static;
-  }
-}
 
 /* Container styles */
 .projects {
@@ -175,6 +154,27 @@ body {
 .project > hr {
   margin: 20px auto 0;
   width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    height: calc(100vh - 4.3rem);
+  }
+
+  .link-container {
+    width: auto;
+    position: static;
+  }
+}
+@media screen and (min-width: 750px) {
+  .headshot {
+    margin: 0 20px 0 0;
+  }
+
+  .bio {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
