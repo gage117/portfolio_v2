@@ -171,14 +171,9 @@ footer .contact-info {
   width: 75%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
   .App {
     height: calc(100vh - 50px);
-  }
-
-  .link-container {
-    width: auto;
-    position: static;
   }
 }
 @media screen and (min-width: 600px) {
@@ -186,8 +181,12 @@ footer .contact-info {
     width: auto;
     position: static;
   }
+
+  #About {
+    padding: 0 25px;
+  }
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
   .bio {
     flex-direction: row-reverse;
     align-items: center;

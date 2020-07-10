@@ -4,7 +4,7 @@ import projectList from './Project-list';
 
 function Projects() {
 	return (
-		<div className='projects'>
+		<div id='Projects'>
 			<p className='projects-header'>Latest Projects</p>
 			<hr />
 			{projectList.map((project, index) => <Project key={index} project={project} />)}

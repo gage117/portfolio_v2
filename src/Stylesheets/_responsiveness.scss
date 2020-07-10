@@ -1,12 +1,7 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 599px) {
 	// Reset App height to offset header
 	.App {
 		height: calc(100vh - 50px);
-	}
-	// Switch links from bottom of screen to top
-	.link-container {
-		width: auto;
-		position: static;
 	}
 }
 
@@ -16,9 +11,13 @@
 		width: auto;
 		position: static;
 	}
+	// Thicken padding on sides
+	#About {
+		padding: 0 25px;
+	}
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
 	.bio {
 		flex-direction: row-reverse;
 		align-items: center;
