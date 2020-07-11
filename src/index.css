@@ -62,7 +62,6 @@ body {
 }
 
 .App {
-  background-color: #ffffff;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }

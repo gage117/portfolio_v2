@@ -31,10 +31,12 @@
 		right: 0;
 		padding: 10px 0 10px;
 		background-color: white;
+		// Prevents clipping issue
 		z-index: 1;
 		& > * {
 			margin: 0 5px;
 			background-clip: border-box;
+			// transition for text-gradient
 			transition: -webkit-text-fill-color .5s, -moz-text-fill-color .5s;
 		}
 		& > *:hover {
