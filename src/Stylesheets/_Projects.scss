@@ -21,6 +21,7 @@
 		font-family: 'Andes';
 		font-size: 4rem;
 		letter-spacing: 1px;
+		@include text-gradient;
 	}
 	// Screenshot
 	img {
