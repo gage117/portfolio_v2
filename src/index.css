@@ -124,6 +124,7 @@ footer .contact-info > * > img {
   right: 0;
   padding: 10px 0 10px;
   background-color: white;
+  z-index: 1;
 }
 #Header > .link-container > * {
   margin: 0 5px;
