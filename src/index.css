@@ -71,19 +71,19 @@ footer {
   background-image: linear-gradient(90deg, #ff8d4d, #f4494e);
   margin-top: 40px;
 }
-footer #contact-links {
+footer #contact-header {
   text-align: center;
   padding-top: 20px;
   font-size: 3.4rem;
   font-weight: bold;
 }
-footer .contact-info {
+footer .contact-links {
   padding: 12.5px 0 20px;
   display: flex;
   justify-content: space-around;
 }
-footer .contact-info > * > img {
-  height: 65px;
+footer .contact-links > * > img {
+  height: 50px;
 }
 
 @font-face {
@@ -178,6 +178,11 @@ footer .contact-info > * > img {
   width: 75%;
 }
 
+@media screen and (min-width: 400px) {
+  footer > .contact-info > * > img {
+    height: 65px;
+  }
+}
 @media screen and (max-width: 599px) {
   .App {
     height: calc(100vh - 50px);

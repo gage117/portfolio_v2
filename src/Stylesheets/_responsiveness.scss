@@ -1,3 +1,10 @@
+@media screen and (min-width: 400px) {
+	// increase size of icons in Contact Me section
+	footer > .contact-info > * > img {
+		height: 65px;
+	}
+}
+
 @media screen and (max-width: 599px) {
 	// Reset App height to offset header
 	.App {
@@ -22,6 +29,7 @@
 }
 
 @media screen and (min-width: 700px) {
+	// Switch bio and headshot from column to side by side
 	.bio {
 		flex-direction: row-reverse;
 		align-items: center;

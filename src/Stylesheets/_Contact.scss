@@ -1,18 +1,19 @@
 footer {
 	background-image: linear-gradient(90deg,#ff8d4d,#f4494e);
 	margin-top: 40px;
-	#contact-links {
+	#contact-header {
 		text-align: center;
 		padding-top: 20px;
 		font-size: 3.4rem;
 		font-weight: bold;
 	}
-	.contact-info {
+	.contact-links {
 		padding: 12.5px 0 20px;
 		display: flex;
 		justify-content: space-around;
+		// Icons
 		& > * > img {
-			height: 65px;
+			height: 50px;
 		}
 	}
 }

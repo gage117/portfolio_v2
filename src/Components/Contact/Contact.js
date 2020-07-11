@@ -7,10 +7,10 @@ import gmailIcon from '../../Images/gmail.png';
 function Contact() {
 	return (
 		<footer id="Contact">
-			<div id="contact-links">
+			<div id="contact-header">
 				<p>Contact Me</p>
 			</div>
-			<div className="contact-info">
+			<div className="contact-links">
 				<a href="https://github.com/gage117" rel='noopener noreferrer' target="_blank"><img src={githubIcon} alt="Github logo" /></a>
 				<a href="https://www.linkedin.com/in/gage-eide/" rel='noopener noreferrer' target="_blank"><img src={linkedinIcon} alt="LinkedIn logo" /></a>
 				<a href="mailto:gageeide@gmail.com" rel='noopener noreferrer' target="_blank"><img src={gmailIcon} alt="Gmail logo" /></a>
