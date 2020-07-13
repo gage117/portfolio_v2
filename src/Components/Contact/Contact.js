@@ -1,8 +1,8 @@
 import React from 'react';
 // Icons
-import githubIcon from '../../Images/github.png';
-import linkedinIcon from '../../Images/linkedin.png';
-import gmailIcon from '../../Images/gmail.png';
+import githubIcon from '../../Images/icons8-github.svg';
+import linkedinIcon from '../../Images/icons8-linkedin-64.png';
+import gmailIcon from '../../Images/icons8-gmail-64.png';
 
 function Contact() {
 	return (

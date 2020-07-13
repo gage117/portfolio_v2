@@ -7,7 +7,7 @@ function About() {
 			<div className='bio'>
 				<div>
 					<p className='intro'>Hi, my name is Gage!</p>
-					<p className='intro-2'>{'I\'m'} a Full Stack Software Engineer specializing in React, Node, Postgres, and Express.</p>
+					<p className='intro-2'>{'I\'m'} a Full Stack Software Engineer specializing in <span>React</span>, <span>Node</span>, <span>Postgres</span>, and <span>Express</span>.</p>
 				</div>
 				<img src={headshot} className='headshot' alt='headshot' />
 			</div>

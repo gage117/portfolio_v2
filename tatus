@@ -1,0 +1,221 @@
+[33mcommit 0c8b7d44ae91836fce661afe54d65e5b9c53f965[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 21:28:02 2020 -0500
+
+    Adjusted size of name in header
+
+[33mcommit 98797a311ad1f433dcea6ff1a73faf393066b69e[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 21:21:39 2020 -0500
+
+    Possible fix for link element clipping behind elements it's not supposed to
+
+[33mcommit 0b11348bae0445040d3cb49887e0d5ab8b394a50[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 21:14:09 2020 -0500
+
+    Possible fix for contact element cutoff on Chrome for Android
+
+[33mcommit 81619c154216388bbcf8ae08e104f33f44f75b54[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 14:28:02 2020 -0500
+
+    Links now smooth-scroll to appropriate areas
+
+[33mcommit 0c00ef001b8ade9da5ef3dbe7acb96d46cb22658[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 14:11:58 2020 -0500
+
+    Put fade-in on About container to avoid children not getting rendered correctly
+
+[33mcommit 97377bcb469a6a57d2df1f01a2a0e9a7f26cb362[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 14:11:00 2020 -0500
+
+    Improved contact styling
+
+[33mcommit b242e772ae0f1fb882892359b1d3ba064afa571b[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 13:56:25 2020 -0500
+
+    Fixed responsiveness of Projects element
+
+[33mcommit 6d5440a80a81ccf5370acd169f1af31985cb450c[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 13:54:10 2020 -0500
+
+    Nested Projects.scss
+
+[33mcommit 1e1602be0f187198bd54d861acc45804b0468a99[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 13:53:48 2020 -0500
+
+    Improved responsiveness
+
+[33mcommit 1ad55d76b12ebd1d6a9182d55b783507b22e4df0[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 13:43:07 2020 -0500
+
+    Made the Header font sizes static
+
+[33mcommit c917596866617cf393a9f5d677925206549529bf[m[33m ([m[1;32mscss[m[33m)[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 13:17:59 2020 -0500
+
+    Fixed bug in responsiveness
+
+[33mcommit 868ea1a5f9ef2d5e588fd62cb4540c4ab9ad3dba[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 13:11:12 2020 -0500
+
+    Modularized media queries into responsiveness.scss
+
+[33mcommit 1820ca0995ce897f33dfc9698bbe65494e6e47ac[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 10 13:07:28 2020 -0500
+
+    Added flex to bio
+
+[33mcommit a1a2ba29523405a9b3032b3e6e373f65a160100a[m[33m ([m[1;31morigin/scss[m[33m)[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Thu Jul 9 17:24:10 2020 -0500
+
+    Gradient button animationsgit add .
+
+[33mcommit 9d10f0c247c615a1490992709be222e26af92efb[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Thu Jul 9 17:04:49 2020 -0500
+
+    Nested Header.scss
+
+[33mcommit 4ae89ea104168b807a1c5e1f7c205e1ef1b7d504[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Thu Jul 9 16:56:48 2020 -0500
+
+    Translated css files to scss files
+
+[33mcommit d2c26e60037d1e4c4996dda680dd634fdd89fa02[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Thu Jul 9 16:03:15 2020 -0500
+
+    Tried out gradient-color on name and removed installer accidentally downloaded into images folder
+
+[33mcommit 0edac902b1c7af29a3b2faa657f916b0517124af[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 3 12:06:56 2020 -0500
+
+    Updated Project styling
+
+[33mcommit 0b47fb9df07c43d19b158122a04a2265e886428f[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 3 10:11:08 2020 -0500
+
+    Added key prop to list render and renamed icon files
+
+[33mcommit 51d6554a7abe260aa3f565f3f7abb98a798af29e[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 3 10:04:40 2020 -0500
+
+    Added screenshots
+
+[33mcommit 8d76d248718ee961ce53fb907ba2b69c52596552[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 3 08:39:31 2020 -0500
+
+    Adjusted view of headshot
+
+[33mcommit 409f0f0d01cb6df33413c300b3f3ee4a1c3945ad[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jul 3 08:39:12 2020 -0500
+
+    Added Projects Component
+
+[33mcommit 451cfa1b8a1750dbf523ca89a7d45a4185e028ff[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 23:32:08 2020 -0500
+
+    Minor layout adjustments
+
+[33mcommit 0d518ce200646aaafbbb070bf55fe3a35cd6f15a[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 23:30:20 2020 -0500
+
+    Minor layout adjustments
+
+[33mcommit e6569271f56dd102cb235f20b9250395c6f72cc9[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 23:13:35 2020 -0500
+
+    Comments left for later implementation
+
+[33mcommit 53ee4652e417ca9a1cb6611689f366f0defc16ff[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 23:04:16 2020 -0500
+
+    Started Skills div
+
+[33mcommit 14657f7ef27f0f50c72641ce77d185c4813b7d4c[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 23:02:44 2020 -0500
+
+    Adjusted headshot size
+
+[33mcommit edf8a2c143ed463dfe8493924e2f1c58172adfd1[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 22:53:47 2020 -0500
+
+    Adjusted html title and description
+
+[33mcommit 52a00c8104e3907133294f77322172606d534d8e[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 22:51:49 2020 -0500
+
+    Adjusted font sizes
+
+[33mcommit 8490c4d6266e08cee6c138b5b945312287f3fd94[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 22:44:22 2020 -0500
+
+    Changed default text alignment
+
+[33mcommit 4a606fd68dc811d090b3f71912fa0c0aa6b1442e[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Tue Jun 30 22:19:59 2020 -0500
+
+    random
+
+[33mcommit 53e2fd0ff100d3d89a25a3d40379b0f3771416b6[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jun 26 13:17:10 2020 -0500
+
+    Removed unnecessary file
+
+[33mcommit 20db8e427c5a51184b0a8dc23a218ed604f749ef[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jun 26 13:15:28 2020 -0500
+
+    Added headshot and moved components into new components folder
+
+[33mcommit 15ed0f8e765da3155059214bde0287a6267661d3[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Fri Jun 26 09:47:45 2020 -0500
+
+    Starting Point
+
+[33mcommit 65af45333c7f9a9cb0a9953ce6c1d868a422f83b[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Mon Jun 22 21:56:33 2020 -0500
+
+    Added and started header component
+
+[33mcommit 8ebc05f3ae3151b980b209303311844628016539[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Mon Jun 22 21:33:54 2020 -0500
+
+    Fresh start
+
+[33mcommit db6a6ebacf2e6e9eeea1c9a3c16c5b58f78294cc[m
+Author: Gage Eide <gageeide@gmail.com>
+Date:   Mon Jun 22 21:19:22 2020 -0500
+
+    Initialize project using Create React App
