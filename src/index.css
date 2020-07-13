@@ -94,6 +94,16 @@ footer .contact-links {
 footer .contact-links > * > img {
   height: 50px;
 }
+footer .credit {
+  text-align: center;
+  color: #fbbfb7;
+  font-size: 1.1rem;
+  padding-bottom: 0.5rem;
+}
+footer .credit a {
+  color: #fbbfb7;
+  font-size: 1.2rem;
+}
 
 @font-face {
   font-family: "Andes";
