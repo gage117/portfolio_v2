@@ -35,6 +35,7 @@
 	// Switch bio and headshot from column to side by side
 	.bio {
 		flex-direction: row-reverse;
+		justify-content: flex-end;
 		align-items: center;
 	}
 	.headshot {
