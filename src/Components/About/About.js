@@ -17,19 +17,6 @@ function About() {
 				<img src={headshot} className='headshot' alt='headshot' />
 			</section>
 
-			{/* Skills Section */}
-			{/* <section className='skills'>
-				<p className='section-header'>Skills</p>
-				<hr />
-				<div className='skills-icons'>
-					{
-						//? Icons
-						//? On hover or on click: expand icon, display text of technology name
-					}
-					Technology icons here, expand and show technology name on click or hover
-				</div>
-			</section> */}
-
 			{/* What I Do Section */}
 			<section className='what-i-do'>
 				<p className='section-header'>What I Do</p>
