@@ -27,9 +27,11 @@
 	}
 	// Screenshot
 	img {
-		margin-top: 20px;
-		width: 100%;
-		height: auto;
+		display: block;
+		margin: 20px auto 0;
+		width: auto;
+		max-width: 100%;
+		max-height: 350px;
 	}
 	.description {
 		margin-top: 20px;
