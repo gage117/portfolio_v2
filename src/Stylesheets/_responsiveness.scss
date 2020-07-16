@@ -18,6 +18,9 @@
 	#Header > .link-container {
 		width: auto;
 		position: static;
+		> * {
+			margin: 0 0 0 20px;
+		}
 	}
 	// Thicken padding on sides
 	#About {

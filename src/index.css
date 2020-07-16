@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #dadada;
 }
 
 html {
@@ -14,6 +13,7 @@ html {
   src: URL("./Stylesheets/Fonts/Bougan.ttf") format("truetype");
 }
 body {
+  color: #dadada;
   margin: 0;
   background-color: #1a1a1a;
   font-family: "Bougan", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -58,23 +58,36 @@ body {
   border-radius: 4px;
 }
 
-.skills {
-  margin-top: 60px;
-}
-.skills .skills-header {
-  font-size: 3.4rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding-bottom: 5px;
-}
-.skills .skills-icons {
-  background-color: lightgray;
-  font-size: 2rem;
-  padding: 10px;
-}
-
 .what-i-do {
   margin-top: 60px;
+}
+.what-i-do article {
+  margin-top: 25px;
+}
+.what-i-do article .wid-header {
+  display: flex;
+  align-items: flex-end;
+}
+.what-i-do article .wid-header img {
+  height: 65px;
+  width: auto;
+  margin-right: 10px;
+}
+.what-i-do article .wid-header span {
+  font-size: 3.4rem;
+  background-image: linear-gradient(90deg, #E090F0, #05BDF5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.what-i-do article .wid-text {
+  padding: 0 10px;
+  font-size: 2rem;
+}
+.what-i-do article .wid-text a {
+  color: #bdb8ff;
 }
 
 .App {
@@ -94,7 +107,7 @@ footer {
   margin-top: 40px;
 }
 footer #contact-header {
-  color: #fbbfb7;
+  color: #bdb8ff;
   text-align: center;
   padding-top: 20px;
   font-size: 3.4rem;
@@ -110,12 +123,12 @@ footer .contact-links > * > img {
 }
 footer .credit {
   text-align: center;
-  color: #fbbfb7;
+  color: #05BDF5;
   font-size: 1.1rem;
   padding-bottom: 0.5rem;
 }
 footer .credit a {
-  color: #fbbfb7;
+  color: #05BDF5;
   font-size: 1.2rem;
 }
 
@@ -132,7 +145,6 @@ footer .credit a {
 }
 #Header a {
   text-decoration: none;
-  color: black;
   font-family: "Andes";
   font-size: 26px;
 }
@@ -148,6 +160,7 @@ footer .credit a {
   -moz-text-fill-color: transparent;
 }
 #Header > .link-container {
+  background-color: #1a1a1a;
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -156,12 +169,16 @@ footer .credit a {
   bottom: 0;
   right: 0;
   padding: 10px 0 10px;
-  background-color: white;
   z-index: 1;
 }
 #Header > .link-container > * {
-  margin: 0 5px;
-  background-clip: border-box;
+  background-image: #bdb8ff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #bdb8ff;
+  -moz-background-clip: text;
+  -moz-text-fill-color: #bdb8ff;
+  margin: 0 10px;
   transition: -webkit-text-fill-color 0.5s, -moz-text-fill-color 0.5s;
 }
 #Header > .link-container > *:hover {
@@ -234,6 +251,9 @@ footer .credit a {
   #Header > .link-container {
     width: auto;
     position: static;
+  }
+  #Header > .link-container > * {
+    margin: 0 0 0 20px;
   }
 
   #About {

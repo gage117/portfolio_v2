@@ -11,7 +11,6 @@
 	box-shadow: 0 6px 30px 2px rgba(0,0,0,.03), 0 3px 15px 1px rgba(0,0,0,.02), 0 1px 8px 1px rgba(0,0,0,.01);
 	a {
 		text-decoration: none;
-		color: black;
 		font-family: 'Andes';
 		font-size: 26px;
 	}
@@ -22,6 +21,7 @@
 		@include text-gradient;
 	}
 	& > .link-container {
+		background-color: #1a1a1a;
 		position: fixed;
 		display: flex;
 		justify-content: space-around;
@@ -30,12 +30,16 @@
 		bottom: 0;
 		right: 0;
 		padding: 10px 0 10px;
-		background-color: white;
 		// Prevents clipping issue
 		z-index: 1;
 		& > * {
-			margin: 0 5px;
-			background-clip: border-box;
+			background-image: $link-footer-text-color;
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: $link-footer-text-color; 
+			-moz-background-clip: text;
+			-moz-text-fill-color: $link-footer-text-color;
+			margin: 0 10px;
 			// transition for text-gradient
 			transition: -webkit-text-fill-color .5s, -moz-text-fill-color .5s;
 		}

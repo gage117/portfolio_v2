@@ -2,7 +2,7 @@ footer {
 	background-color: #0D0C22;
 	margin-top: 40px;
 	#contact-header {
-		color: #fbbfb7;
+		color: $link-footer-text-color;
 		text-align: center;
 		padding-top: 20px;
 		font-size: 3.4rem;
@@ -19,11 +19,11 @@ footer {
 	}
 	.credit {
 		text-align: center;
-		color: #fbbfb7;
+		color: #05BDF5;
 		font-size: 1.1rem;
 		padding-bottom: .5rem;
 		a {
-			color: #fbbfb7;
+			color: #05BDF5;
 			font-size: 1.2rem;
 		}
 	}
