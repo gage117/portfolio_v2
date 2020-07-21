@@ -12,8 +12,6 @@ const projectList = [
 			live: 'https://katia.now.sh/'
 		},
 		techStack: [
-			'html',
-			'css',
 			'js',
 			'react',
 			'node',
@@ -31,8 +29,6 @@ const projectList = [
 			live: 'https://nutrilyze-client.now.sh/'
 		},
 		techStack: [
-			'html',
-			'css',
 			'js',
 			'react',
 			'node',
