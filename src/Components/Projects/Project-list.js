@@ -1,5 +1,9 @@
 import katiaScreenshot from '../../Images/Katia-profile.png';
 import nutrilyzeScreenshot from '../../Images/Full-Screen.png';
+// Icon Imports
+import jsIcon from '../../Images/icons8-javascript.svg';
+import reactIcon from '../../Images/icons8-react-native.svg';
+import nodeIcon from '../../Images/.svg';
 
 const projectList = [
 	{
