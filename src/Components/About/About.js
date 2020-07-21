@@ -3,7 +3,7 @@ import headshot from '../../Images/Headshot_cropped.jpg';
 
 // Icons
 import designIcon from '../../Images/icons8-web-design-64.png';
-import apiIcon from '../../Images/icons8-rest-api-96.png';
+import apiIcon from '../../Images/icons8-rest-api-64.png';
 import databaseIcon from '../../Images/icons8-database-64.png';
 
 function About() {
