@@ -2,7 +2,7 @@ import React from 'react';
 import headshot from '../../Images/Headshot_cropped.jpg';
 
 // Icons
-import reactLogo from '../../Images/icons8-react-native.svg';
+import designIcon from '../../Images/icons8-web-design-64.png';
 import apiIcon from '../../Images/icons8-rest-api-96.png';
 import databaseIcon from '../../Images/icons8-database-64.png';
 
@@ -23,7 +23,7 @@ function About() {
 				<hr />
 				<article>
 					<section className='wid-header'>
-						<img src={reactLogo} alt='react' />
+						<img src={designIcon} alt='react' />
 						<span>Front End Development</span>
 					</section>
 					<p className='wid-text'>Need help building or designing a website? I design sleek and accessible sites using <a href='https://www.figma.com/' target='blank' rel='noopener noreferrer'>Figma</a>, and can redesign old websites to bring a new look to it. I can build these sites in anything from my favorite framework <a href='https://reactjs.org/' target='blank' rel='noopener noreferrer'>React</a> to simple HTML depending on complexity.</p>

@@ -237,6 +237,30 @@ footer .credit a {
   margin-top: 20px;
   font-size: 2.4rem;
 }
+.project .tech-stack {
+  background-color: #2a2a2a;
+  padding: 7.5px 5px;
+  border-radius: 7.5px;
+}
+.project .tech-stack h3 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin: 10px;
+  color: #bdb8ff;
+}
+.project .tech-stack hr {
+  margin: 10px auto 15px;
+}
+.project .tech-stack .tech-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.project .tech-stack .tech-icons img {
+  height: 60px;
+  margin: 2.5px 5px;
+}
 .project hr {
   margin: 20px auto 0;
   width: 75%;
