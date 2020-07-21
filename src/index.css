@@ -24,6 +24,7 @@ body {
 #About {
   margin: 50px auto 0;
   padding: 0 16px;
+  max-width: 1200px;
 }
 
 .bio {
@@ -144,6 +145,8 @@ footer .credit a {
   justify-content: space-between;
   align-items: center;
   padding: 10px 35px 10px 15px;
+  max-width: 1200px;
+  margin: auto;
   box-shadow: 0 6px 30px 2px rgba(0, 0, 0, 0.03), 0 3px 15px 1px rgba(0, 0, 0, 0.02), 0 1px 8px 1px rgba(0, 0, 0, 0.01);
 }
 #Header a {
@@ -197,7 +200,8 @@ footer .credit a {
 /* Container styles */
 #Projects {
   padding: 0 16px;
-  margin-top: 60px;
+  max-width: 1200px;
+  margin: 60px auto 0;
 }
 
 .projects-header {
@@ -209,8 +213,7 @@ footer .credit a {
 
 /* Individual project styles */
 .project {
-  max-width: 800px;
-  margin-top: 40px;
+  margin: 40px auto 0;
 }
 .project .name {
   margin: auto;

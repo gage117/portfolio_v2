@@ -2,7 +2,8 @@
 
 #Projects {
 	padding: 0 16px;
-	margin-top: 60px;
+	max-width: 1200px;
+	margin: 60px auto 0;
 }
 
 .projects-header {
@@ -15,8 +16,7 @@
 /* Individual project styles */
 
 .project {
-	max-width: 800px;
-	margin-top: 40px;
+	margin: 40px auto 0;
 	.name {
 		margin: auto;
 		width: fit-content;
