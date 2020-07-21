@@ -1,9 +1,11 @@
 import katiaScreenshot from '../../Images/Katia-profile.png';
 import nutrilyzeScreenshot from '../../Images/Full-Screen.png';
 // Icon Imports
-import jsIcon from '../../Images/icons8-javascript.svg';
-import reactIcon from '../../Images/icons8-react-native.svg';
-import nodeIcon from '../../Images/.svg';
+import js from '../../Images/icons8-javascript.svg';
+import react from '../../Images/icons8-react-native.svg';
+import node from '../../Images/Node2.svg';
+import postgres from '../../Images/Postgres.svg';
+import aws from '../../Images/icons8-amazon-s3.svg';
 
 const projectList = [
 	{
@@ -16,11 +18,11 @@ const projectList = [
 			live: 'https://katia.now.sh/'
 		},
 		techStack: [
-			'js',
-			'react',
-			'node',
-			'postgres',
-			'aws'
+			js,
+			react,
+			node,
+			postgres,
+			aws
 		]
 	},
 	{
@@ -33,10 +35,10 @@ const projectList = [
 			live: 'https://nutrilyze-client.now.sh/'
 		},
 		techStack: [
-			'js',
-			'react',
-			'node',
-			'postgres'
+			js,
+			react,
+			node,
+			postgres
 		]
 	},
 ];
