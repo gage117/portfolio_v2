@@ -282,6 +282,10 @@ footer .credit a {
   }
 }
 @media screen and (min-width: 600px) {
+  .App {
+    overflow-y: auto;
+  }
+
   #Header > .link-container {
     width: auto;
     position: static;

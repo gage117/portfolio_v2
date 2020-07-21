@@ -15,6 +15,10 @@
 
 @media screen and (min-width: 600px) {
 	// Switch links from bottom of screen to top
+		// Set overflow-y to auto to avoid two scroll bars
+	.App {
+		overflow-y: auto;
+	}
 	#Header > .link-container {
 		width: auto;
 		position: static;
