@@ -46,3 +46,17 @@
 		margin: 0 20px 0 0;
 	}
 }
+
+@media screen and (min-width: 875px) {
+	.project .tech-stack .tech-icons img {
+		height: 60px;
+		margin: 2.5px 5px;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.project .tech-stack .tech-icons img {
+		height: 75px;
+		margin: 2.5px 5px;
+	}
+}
