@@ -234,8 +234,8 @@ footer .credit a {
   display: block;
   margin: 20px auto 0;
   width: auto;
-  max-width: 90%;
-  max-height: 350px;
+  max-width: 600px;
+  max-height: 500px;
 }
 .project .description {
   margin: 20px auto 0;
