@@ -25,11 +25,17 @@ function Project(props) {
 	return (
 		<article key={name} className='project'>
 			<h2 className='name'>{name.toLowerCase()}</h2>
-			<img src={screenshot} alt={`${name} screenshot`} />
-			<p className='description'>{description}</p>
-			<article className='repo-links'>
-				{Object.entries(repos).map((repo, index) => generateRepoLink(repo, index))}
-			</article>
+			<section className='flex-columns'>
+				<div className='left-column'>
+					<img src={screenshot} alt={`${name} screenshot`} />
+				</div>
+				<div className='right-column'>
+					<p className='description'>{description}</p>
+					<article className='repo-links'>
+						{Object.entries(repos).map((repo, index) => generateRepoLink(repo, index))}
+					</article>
+				</div>
+			</section>
 			<article className='tech-stack'>
 				<h3>Tech Stack</h3>
 				<hr />

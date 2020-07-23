@@ -55,8 +55,24 @@
 }
 
 @media screen and (min-width: 1100px) {
-	.project .tech-stack .tech-icons img {
-		height: 75px;
-		margin: 2.5px 5px;
+	.project {
+		.flex-columns {
+			width: fit-content;
+			min-width: 900px;
+			margin: auto;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			.left-column {
+				width: auto;
+			}
+			.right-column {
+				width: 390px;
+			}
+		}
+		.tech-stack .tech-icons img {
+			height: 75px;
+			margin: 2.5px 5px;
+		}
 	}
 }
