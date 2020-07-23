@@ -257,6 +257,7 @@ footer .credit a {
 .project .tech-stack {
   background-color: #2a2a2a;
   width: 90%;
+  max-width: 750px;
   margin: 20px auto 30px;
   padding: 15px 0;
   border-radius: 7.5px;
@@ -320,7 +321,7 @@ footer .credit a {
   }
   #Projects .project img {
     max-height: 500px;
-    max-width: 570px;
+    max-width: 550px;
   }
 }
 @media screen and (min-width: 700px) {
