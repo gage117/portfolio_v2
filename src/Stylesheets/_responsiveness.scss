@@ -72,10 +72,10 @@
 		}
 		.flex-columns {
 			width: fit-content;
-			min-width: 1000px;
+			min-width: 90%;
 			margin: auto;
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-evenly;
 			align-items: center;
 			.left-column {
 				width: auto;
