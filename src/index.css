@@ -350,7 +350,7 @@ footer .credit a {
   }
   .project .flex-columns {
     width: fit-content;
-    min-width: 900px;
+    min-width: 1000px;
     margin: auto;
     display: flex;
     justify-content: space-around;
