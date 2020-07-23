@@ -318,6 +318,10 @@ footer .credit a {
   #Projects {
     padding: 0 25px;
   }
+  #Projects .project img {
+    max-height: 500px;
+    max-width: 570px;
+  }
 }
 @media screen and (min-width: 700px) {
   .bio {
@@ -328,10 +332,6 @@ footer .credit a {
 
   .headshot {
     margin: 0 20px 0 0;
-  }
-
-  .project img {
-    max-height: 500px;
   }
 }
 @media screen and (min-width: 875px) {

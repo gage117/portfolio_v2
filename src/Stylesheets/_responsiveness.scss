@@ -32,6 +32,12 @@
 	}
 	#Projects {
 		padding: 0 25px;
+		.project {
+			img {
+				max-height: 500px;
+				max-width: 570px;
+			}
+		}
 	}
 }
 
@@ -44,11 +50,6 @@
 	}
 	.headshot {
 		margin: 0 20px 0 0;
-	}
-	.project {
-		img {
-			max-height: 500px;
-		}
 	}
 }
 
