@@ -62,6 +62,9 @@ body {
 .what-i-do {
   margin-top: 60px;
 }
+.what-i-do :not(:first-child) {
+  margin-top: 20px;
+}
 .what-i-do article .wid-header {
   display: flex;
   align-items: flex-end;

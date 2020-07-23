@@ -34,6 +34,9 @@
 // Styles for What I Do section
 .what-i-do {
 	margin-top: 60px;
+	:not(:first-child) {
+		margin-top: 20px;
+	}
 	article {
 		.wid-header {
 			display: flex;
