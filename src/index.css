@@ -62,8 +62,8 @@ body {
 .what-i-do {
   margin-top: 60px;
 }
-.what-i-do article {
-  margin-top: 25px;
+.what-i-do :not(:first-child) {
+  margin-top: 20px;
 }
 .what-i-do article .wid-header {
   display: flex;
@@ -104,9 +104,13 @@ body {
   padding-bottom: 5px;
 }
 
+hr {
+  margin-bottom: 40px;
+}
+
 footer {
   background-color: #0D0C22;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 footer #contact-header {
   color: #bdb8ff;
@@ -213,14 +217,15 @@ footer .credit a {
 
 /* Individual project styles */
 .project {
-  margin: 40px auto 0;
+  padding: 30px 0 0;
+  margin: auto;
 }
 .project .name {
   margin: auto;
   width: fit-content;
   text-align: center;
   font-family: "Andes";
-  font-size: 4rem;
+  font-size: 5.5rem;
   font-weight: normal;
   letter-spacing: 1px;
   background-image: linear-gradient(90deg, #E090F0, #05BDF5);
@@ -235,38 +240,54 @@ footer .credit a {
   margin: 20px auto 0;
   width: auto;
   max-width: 100%;
-  max-height: 350px;
+  max-height: 360px;
 }
 .project .description {
-  margin-top: 20px;
+  margin: 20px auto 0;
   font-size: 2.4rem;
+  width: 90%;
+}
+.project .repo-links {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+}
+.project .repo-links a {
+  font-size: 3rem;
+  color: #bdb8ff;
 }
 .project .tech-stack {
   background-color: #2a2a2a;
-  padding: 7.5px 5px;
+  width: 90%;
+  max-width: 750px;
+  margin: 20px auto 30px;
+  padding: 15px 0;
   border-radius: 7.5px;
 }
 .project .tech-stack h3 {
-  font-size: 2.8rem;
+  font-size: 3rem;
+  font-weight: bold;
   text-align: center;
-  margin: 10px;
-  color: #bdb8ff;
+  margin: 0 10px 10px;
+  color: #dadada;
 }
 .project .tech-stack hr {
-  margin: 10px auto 15px;
+  margin: 5px auto 20px;
+  border-color: #dadada;
 }
 .project .tech-stack .tech-icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 .project .tech-stack .tech-icons img {
-  height: 60px;
+  height: 50px;
   margin: 2.5px 5px;
 }
 .project hr {
-  margin: 20px auto 0;
+  margin: 20px auto 40px;
   width: 75%;
 }
 
@@ -282,6 +303,10 @@ footer .credit a {
   }
 }
 @media screen and (min-width: 600px) {
+  .App {
+    overflow-y: auto;
+  }
+
   #Header > .link-container {
     width: auto;
     position: static;
@@ -297,6 +322,10 @@ footer .credit a {
   #Projects {
     padding: 0 25px;
   }
+  #Projects .project img {
+    max-height: 500px;
+    max-width: 550px;
+  }
 }
 @media screen and (min-width: 700px) {
   .bio {
@@ -307,6 +336,34 @@ footer .credit a {
 
   .headshot {
     margin: 0 20px 0 0;
+  }
+}
+@media screen and (min-width: 875px) {
+  .project .name {
+    font-size: 6rem;
+  }
+  .project .tech-stack .tech-icons img {
+    height: 60px;
+    margin: 2.5px 5px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .project .name {
+    font-size: 6.7rem;
+  }
+  .project .flex-columns {
+    width: fit-content;
+    min-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .project .flex-columns .left-column {
+    width: auto;
+  }
+  .project .flex-columns .right-column {
+    width: 390px;
   }
 }
 

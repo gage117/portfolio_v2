@@ -15,6 +15,10 @@
 
 @media screen and (min-width: 600px) {
 	// Switch links from bottom of screen to top
+		// Set overflow-y to auto to avoid two scroll bars
+	.App {
+		overflow-y: auto;
+	}
 	#Header > .link-container {
 		width: auto;
 		position: static;
@@ -28,6 +32,12 @@
 	}
 	#Projects {
 		padding: 0 25px;
+		.project {
+			img {
+				max-height: 500px;
+				max-width: 550px;
+			}
+		}
 	}
 }
 
@@ -40,5 +50,39 @@
 	}
 	.headshot {
 		margin: 0 20px 0 0;
+	}
+}
+
+@media screen and (min-width: 875px) {
+	.project {
+		.name {
+			font-size: 6rem;
+		}
+		.tech-stack .tech-icons img {
+			height: 60px;
+			margin: 2.5px 5px;
+		}
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.project {
+		.name {
+			font-size: 6.7rem;
+		}
+		.flex-columns {
+			width: fit-content;
+			min-width: 90%;
+			margin: auto;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			.left-column {
+				width: auto;
+			}
+			.right-column {
+				width: 390px;
+			}
+		}
 	}
 }

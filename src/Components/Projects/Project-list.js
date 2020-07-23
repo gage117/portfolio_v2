@@ -20,8 +20,8 @@ const projectList = [
 		techStack: [
 			js,
 			react,
-			node,
 			postgres,
+			node,
 			aws
 		]
 	},
@@ -37,8 +37,8 @@ const projectList = [
 		techStack: [
 			js,
 			react,
+			postgres,
 			node,
-			postgres
 		]
 	},
 ];
