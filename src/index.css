@@ -62,9 +62,6 @@ body {
 .what-i-do {
   margin-top: 60px;
 }
-.what-i-do article {
-  margin-top: 25px;
-}
 .what-i-do article .wid-header {
   display: flex;
   align-items: flex-end;
@@ -104,9 +101,13 @@ body {
   padding-bottom: 5px;
 }
 
+hr {
+  margin-bottom: 40px;
+}
+
 footer {
   background-color: #0D0C22;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 footer #contact-header {
   color: #bdb8ff;
@@ -213,14 +214,15 @@ footer .credit a {
 
 /* Individual project styles */
 .project {
-  margin: 50px auto 0;
+  padding: 30px 0 0;
+  margin: auto;
 }
 .project .name {
   margin: auto;
   width: fit-content;
   text-align: center;
   font-family: "Andes";
-  font-size: 4rem;
+  font-size: 5.5rem;
   font-weight: normal;
   letter-spacing: 1px;
   background-image: linear-gradient(90deg, #E090F0, #05BDF5);
@@ -234,8 +236,8 @@ footer .credit a {
   display: block;
   margin: 20px auto 0;
   width: auto;
-  max-width: 600px;
-  max-height: 500px;
+  max-width: 100%;
+  max-height: 360px;
 }
 .project .description {
   margin: 20px auto 0;
@@ -260,7 +262,7 @@ footer .credit a {
   border-radius: 7.5px;
 }
 .project .tech-stack h3 {
-  font-size: 3.4rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin: 0 10px 10px;
@@ -281,7 +283,7 @@ footer .credit a {
   margin: 2.5px 5px;
 }
 .project hr {
-  margin: 20px auto 0;
+  margin: 20px auto 40px;
   width: 60%;
 }
 
@@ -327,14 +329,24 @@ footer .credit a {
   .headshot {
     margin: 0 20px 0 0;
   }
+
+  .project img {
+    max-height: 500px;
+  }
 }
 @media screen and (min-width: 875px) {
+  .project .name {
+    font-size: 6rem;
+  }
   .project .tech-stack .tech-icons img {
     height: 60px;
     margin: 2.5px 5px;
   }
 }
 @media screen and (min-width: 1100px) {
+  .project .name {
+    font-size: 6.7rem;
+  }
   .project .flex-columns {
     width: fit-content;
     min-width: 900px;
@@ -348,10 +360,6 @@ footer .credit a {
   }
   .project .flex-columns .right-column {
     width: 390px;
-  }
-  .project .tech-stack .tech-icons img {
-    height: 75px;
-    margin: 2.5px 5px;
   }
 }
 
