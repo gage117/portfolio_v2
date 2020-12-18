@@ -12,6 +12,7 @@ html {
   font-family: "Bougan";
   src: URL("Bougan.ttf") format("truetype");
 }
+
 body {
   color: #dadada;
   margin: 0;
