@@ -10,7 +10,7 @@ html {
 
 @font-face {
   font-family: "Bougan";
-  src: URL("./Stylesheets/Fonts/Bougan.ttf") format("truetype");
+  src: URL("Bougan.ttf") format("truetype");
 }
 body {
   color: #dadada;
@@ -142,7 +142,7 @@ footer .credit a {
 
 @font-face {
   font-family: "Andes";
-  src: URL("./Stylesheets/Fonts/Andes.ttf") format("truetype");
+  src: URL("Andes.ttf") format("truetype");
 }
 #Header {
   display: flex;
