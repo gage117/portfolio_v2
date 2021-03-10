@@ -309,6 +309,10 @@ footer .credit a {
   .App {
     overflow-y: auto;
   }
+  .App .headshot {
+    min-width: 300px;
+    max-width: 300px;
+  }
 
   #Header > .link-container {
     width: auto;
@@ -330,7 +334,7 @@ footer .credit a {
     max-width: 550px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .bio {
     flex-direction: row-reverse;
     justify-content: flex-end;
