@@ -18,6 +18,10 @@
 		// Set overflow-y to auto to avoid two scroll bars
 	.App {
 		overflow-y: auto;
+		.headshot {
+			min-width: 300px;
+			max-width: 300px;
+		}
 	}
 	#Header > .link-container {
 		width: auto;
@@ -41,7 +45,7 @@
 	}
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
 	// Switch bio and headshot from column to side by side
 	.bio {
 		flex-direction: row-reverse;
