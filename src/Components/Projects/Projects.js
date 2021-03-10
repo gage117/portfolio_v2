@@ -10,7 +10,7 @@ function Projects() {
 			<hr />
 			{projectList.map((project, index) => {
 				return (
-					<ScrollAnimation animateIn='fadeIn' animateOnce={true} duration={0.75} initiallyVisible={true} key={index}>
+					<ScrollAnimation animateIn='fadeIn' animateOnce={true} offset={0} initiallyVisible={true} key={index}>
 						<Project key={index} project={project} />
 					</ScrollAnimation>
 				)

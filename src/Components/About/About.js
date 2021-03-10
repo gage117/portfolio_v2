@@ -9,7 +9,7 @@ import databaseIcon from '../../Images/icons8-database-64.png';
 function About() {
 	return (
 		<section id="About">
-			<ScrollAnimation animateIn='fadeIn' animateOnce={true} duration={0.75} offset={0} initiallyVisible={true}>
+			<ScrollAnimation animateIn='fadeIn' animateOnce={true} offset={0} initiallyVisible={true}>
 				<section className='bio'>
 					<div className='intro-p-container'>
 						<p className='intro'>Hi, my name is Gage!</p>
