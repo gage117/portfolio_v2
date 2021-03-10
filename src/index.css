@@ -23,7 +23,7 @@ body {
 }
 
 #About {
-  margin: 50px auto 0;
+  margin: 20px auto 0;
   padding: 0 16px;
   max-width: 1200px;
 }
@@ -33,12 +33,15 @@ body {
   flex-direction: column;
 }
 
+.intro, .intro-2 {
+  margin-top: 20px;
+}
+
 .intro {
   font-size: 2.6rem;
 }
 
 .intro-2 {
-  margin-top: 30px;
   font-size: 2.8rem;
   font-weight: 800;
 }
@@ -61,17 +64,20 @@ body {
 }
 
 .what-i-do {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .what-i-do :not(:first-child) {
   margin-top: 20px;
+}
+.what-i-do hr {
+  margin-top: 0px !important;
 }
 .what-i-do article .wid-header {
   display: flex;
   align-items: flex-end;
 }
 .what-i-do article .wid-header img {
-  height: 65px;
+  height: 50px;
   width: auto;
   margin-right: 10px;
 }
@@ -106,7 +112,7 @@ body {
 }
 
 hr {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -307,6 +313,10 @@ footer .credit a {
   .App {
     overflow-y: auto;
   }
+  .App .headshot {
+    min-width: 300px;
+    max-width: 300px;
+  }
 
   #Header > .link-container {
     width: auto;
@@ -328,7 +338,7 @@ footer .credit a {
     max-width: 550px;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .bio {
     flex-direction: row-reverse;
     justify-content: flex-end;

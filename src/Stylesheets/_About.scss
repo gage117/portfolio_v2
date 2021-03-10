@@ -1,5 +1,5 @@
 #About {
-	margin: 50px auto 0;
+	margin: 20px auto 0;
 	padding: 0 16px;
 	max-width: 1200px;
 }
@@ -9,12 +9,15 @@
 	flex-direction: column;
 }
 
+.intro, .intro-2 {
+	margin-top: 20px;
+}
+
 .intro {
 	font-size: 2.6rem;
 }
 
 .intro-2 {
-	margin-top: 30px;
 	font-size: 2.8rem;
 	font-weight: 800;
 	span {
@@ -33,9 +36,12 @@
 
 // Styles for What I Do section
 .what-i-do {
-	margin-top: 60px;
+	margin-top: 30px;
 	:not(:first-child) {
 		margin-top: 20px;
+	}
+	hr {
+		margin-top: 0px !important;
 	}
 	article {
 		.wid-header {
@@ -43,7 +49,7 @@
 			// Align elements with bottom of container
 			align-items: flex-end;
 			img {
-				height: 65px;
+				height: 50px;
 				width: auto;
 				margin-right: 10px;
 			}

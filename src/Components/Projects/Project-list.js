@@ -1,3 +1,5 @@
+import React from 'react';
+import myStripesScreenshot from '../../Images/my-stripes-screenshot.png';
 import katiaScreenshot from '../../Images/Katia-profile.png';
 import nutrilyzeScreenshot from '../../Images/Full-Screen.png';
 // Icon Imports
@@ -9,9 +11,24 @@ import aws from '../../Images/icons8-amazon-s3.svg';
 
 const projectList = [
 	{
+		name: 'My Stripes',
+		screenshot: myStripesScreenshot,
+		description: (<span>A Full-stack e-commerce store I helped create during my internship at F5 Web Development. It’s a React application with the Node/Express backend using <b>Stripe</b> for payment processing, a Postgres database, and <b>Cloudinary</b> for images. I also implemented <b>static serving</b> to speed up load times and eliminate the client repo we had for a while.</span>),
+		repos: {
+			server: 'https://github.com/zda17/MyStripesShop---API',
+			live: 'https://my-stripes.herokuapp.com/'
+		},
+		techStack: [
+			js,
+			react,
+			postgres,
+			node
+		]
+	},
+	{
 		name: 'Katia',
 		screenshot: katiaScreenshot,
-		description: 'A social media platform created to help gamers find new teammates in a much less random and impersonal way than traditional in-game matchmaking. Find players that play the games you play and on the platforms you own. Avatars are stored using AWS S3 buckets and live messaging implemented with Socket.IO.',
+		description: (<span>A social media platform created to help gamers find new teammates in a much less random and impersonal way than traditional in-game matchmaking. Find players that play the games you play and on the platforms you own. Avatars are stored using AWS <b>S3 buckets</b> and live messaging implemented with <b>Socket.IO</b>.</span>),
 		repos: {
 			client: 'https://github.com/gage117/Katia-client',
 			server: 'https://github.com/gage117/Katia-API',
