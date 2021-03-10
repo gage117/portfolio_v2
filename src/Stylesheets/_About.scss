@@ -36,9 +36,12 @@
 
 // Styles for What I Do section
 .what-i-do {
-	margin-top: 60px;
+	margin-top: 30px;
 	:not(:first-child) {
 		margin-top: 20px;
+	}
+	hr {
+		margin-top: 0px !important;
 	}
 	article {
 		.wid-header {
@@ -46,7 +49,7 @@
 			// Align elements with bottom of container
 			align-items: flex-end;
 			img {
-				height: 65px;
+				height: 50px;
 				width: auto;
 				margin-right: 10px;
 			}

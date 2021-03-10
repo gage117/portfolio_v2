@@ -63,17 +63,20 @@ body {
 }
 
 .what-i-do {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .what-i-do :not(:first-child) {
   margin-top: 20px;
+}
+.what-i-do hr {
+  margin-top: 0px !important;
 }
 .what-i-do article .wid-header {
   display: flex;
   align-items: flex-end;
 }
 .what-i-do article .wid-header img {
-  height: 65px;
+  height: 50px;
   width: auto;
   margin-right: 10px;
 }
@@ -108,7 +111,7 @@ body {
 }
 
 hr {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 footer {
