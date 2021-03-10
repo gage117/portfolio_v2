@@ -13,6 +13,7 @@ function About() {
 				<div className='intro-p-container'>
 					<p className='intro'>Hi, my name is Gage!</p>
 					<p className='intro-2'>{'I\'m'} a Full Stack Software Engineer specializing in <span>React</span>, <span>Node</span>, <span>Postgres</span>, and <span>Express</span>.</p>
+					<p className='intro'>Based in St Paul Minnesota's 8 months of winter and 4 months of scorching hot not-winter; I'm an avid mountain biker and bike tinkerer, sim racer, and VR enthusiast who loves keeping up with the latest news and tech!</p>
 				</div>
 				<img src={headshot} className='headshot' alt='headshot' />
 			</section>

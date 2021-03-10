@@ -1,5 +1,5 @@
 #About {
-	margin: 50px auto 0;
+	margin: 20px auto 0;
 	padding: 0 16px;
 	max-width: 1200px;
 }
@@ -9,12 +9,15 @@
 	flex-direction: column;
 }
 
+.intro, .intro-2 {
+	margin-top: 20px;
+}
+
 .intro {
 	font-size: 2.6rem;
 }
 
 .intro-2 {
-	margin-top: 30px;
 	font-size: 2.8rem;
 	font-weight: 800;
 	span {
