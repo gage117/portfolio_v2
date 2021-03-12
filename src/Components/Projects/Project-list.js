@@ -1,7 +1,7 @@
 import React from 'react';
-import myStripesScreenshot from '../../Images/my-stripes-screenshot.png';
-import katiaScreenshot from '../../Images/Katia-profile.png';
-import nutrilyzeScreenshot from '../../Images/Full-Screen.png';
+import myStripesScreenshot from '../../Images/my-stripes-screenshot.webp';
+import katiaScreenshot from '../../Images/Katia-profile.webp';
+import nutrilyzeScreenshot from '../../Images/Full-Screen.webp';
 // Icon Imports
 import js from '../../Images/icons8-javascript.svg';
 import react from '../../Images/icons8-react-native.svg';

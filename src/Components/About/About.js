@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../Images/Headshot_cropped.jpg';
+import headshot from '../../Images/Headshot_cropped.webp';
 import ScrollAnimation from 'react-animate-on-scroll';
 // Icons
 import designIcon from '../../Images/icons8-web-design-64.png';
