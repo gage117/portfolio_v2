@@ -1,35 +1,39 @@
 import React, { useState } from 'react';
 
+const defaultPreferences = {
+  length: 16,
+  lowercase: true,
+  uppercase: true,
+  numbers: true,
+  symbols: true,
+};
+
 function generatePassword(preferenceObj) {
-  let password = '';
-  let possible = '';
+  let password = [];
+  let possible = [];
   if (preferenceObj.lowercase) {
-    possible += 'abcdefghijklmnopqrstuvwxyz';
+    possible = possible.concat('abcdefghijklmnopqrstuvwxyz'.split(''));
   }
   if (preferenceObj.uppercase) {
-    possible += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    possible = possible.concat('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''));
   }
   if (preferenceObj.numbers) {
-    possible += '0123456789';
+    console.log('numbers');
+    possible = possible.concat('0123456789'.split(''));
   }
-  if (preferenceObj.special) {
-    possible += '!@#$%^&*()';
+  if (preferenceObj.symbols) {
+    possible = possible.concat('!@#$%^&*()'.split(''));
   }
+  console.log('!@#$%^&*()'.split(''));
   for (let i = 0; i < preferenceObj.length; i++) {
-    password += possible.charAt(Math.floor(Math.random() * possible.length));
+    password += possible[Math.floor(Math.random() * possible.length)];
   }
   return password;
 }
 
 export default function PasswordGen() {
-  const [password, setPassword] = useState('');
-  const [formObj, setFormObj] = useState({
-    length: 16,
-    lowercase: true,
-    uppercase: true,
-    numbers: true,
-    symbols: true,
-  });
+  const [password, setPassword] = useState(generatePassword(defaultPreferences));
+  const [formObj, setFormObj] = useState(defaultPreferences);
 
   function handleInputChange(event) {
     if (event.target.id === "length") {
@@ -71,7 +75,7 @@ export default function PasswordGen() {
           <input type="checkbox" id="symbols" checked={formObj.symbols} onChange={(e) => handleInputChange(e)} />
         </div>
         <button>Generate</button>
-        <div id="password"></div>
+        <h1 id="password">{password}</h1>
       </form>
     </main>
   )
