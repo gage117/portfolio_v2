@@ -27,25 +27,26 @@ export default function PasswordGen() {
   return (
     <main className='PasswordGen'>
       <form className='generatorForm'>
-        <h1>I'm gonna generate you a password so hard</h1>
+        <h1>Generate yoself one mighty fine password</h1>
+        <h2>Courtesy of the <a href="https://bost.ocks.org/mike/shuffle/">Fisher-Yates Shuffle</a></h2>
         <div className="inputDiv">
-          <label for="length">Length</label>
+          <label htmlFor="length">Length</label>
           <input type="text" id="length" value={formObj.length} onChange={(e) => handleInputChange(e)} />
         </div>
         <div className="inputDiv">
-          <label for="lowercase">Lowercase</label>
+          <label htmlFor="lowercase">Lowercase</label>
           <input type="checkbox" id="lowercase" checked={formObj.lowercase} onChange={(e) => handleInputChange(e)} />
         </div>
         <div className="inputDiv">
-          <label for="uppercase">Uppercase</label>
+          <label htmlFor="uppercase">Uppercase</label>
           <input type="checkbox" id="uppercase" checked={formObj.uppercase} onChange={(e) => handleInputChange(e)} />
         </div>
         <div className="inputDiv">
-          <label for="numbers">Numbers</label>
+          <label htmlFor="numbers">Numbers</label>
           <input type="checkbox" id="numbers" checked={formObj.numbers} onChange={(e) => handleInputChange(e)} />
         </div>
         <div className="inputDiv">
-          <label for="symbols">Symbols</label>
+          <label htmlFor="symbols">Symbols</label>
           <input type="checkbox" id="symbols" checked={formObj.symbols} onChange={(e) => handleInputChange(e)} />
         </div>
         <button>Generate</button>
