@@ -9,26 +9,37 @@ const defaultPreferences = {
 };
 
 function generatePassword(preferenceObj) {
-  let password = [];
-  let possible = [];
+  let password = [], possible = [];
+
+  // Join possible characters and add one of each to password to ensure at least one of each choice
   if (preferenceObj.lowercase) {
-    possible = possible.concat('abcdefghijklmnopqrstuvwxyz'.split(''));
+    const lowerArr = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    password.push(lowerArr[Math.floor(Math.random() * lowerArr.length)]);
+    possible = possible.concat(lowerArr);
   }
   if (preferenceObj.uppercase) {
-    possible = possible.concat('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split(''));
+    const upperArr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    password.push(upperArr[Math.floor(Math.random() * upperArr.length)]);
+    possible = possible.concat(upperArr);
   }
   if (preferenceObj.numbers) {
-    console.log('numbers');
-    possible = possible.concat('0123456789'.split(''));
+    const numArr = '0123456789'.split('');
+    password.push(numArr[Math.floor(Math.random() * numArr.length)]);
+    possible = possible.concat(numArr);
   }
   if (preferenceObj.symbols) {
-    possible = possible.concat('!@#$%^&*()'.split(''));
+    const symbolArr = '!@#$%^&*()'.split('');
+    password.push(symbolArr[Math.floor(Math.random() * symbolArr.length)]);
+    possible = possible.concat(symbolArr);
   }
-  console.log('!@#$%^&*()'.split(''));
-  for (let i = 0; i < preferenceObj.length; i++) {
-    password += possible[Math.floor(Math.random() * possible.length)];
+
+  // Generate password array
+  for (let i = password.length; i < preferenceObj.length; i++) {
+    password.push(possible[Math.floor(Math.random() * possible.length)]);
   }
-  return password;
+
+  // Shuffle array to randomize location of guaranteed characters
+  return password.join('');
 }
 
 export default function PasswordGen() {
@@ -49,9 +60,14 @@ export default function PasswordGen() {
     }
   }
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    setPassword(generatePassword(formObj));
+  }
+
   return (
     <main className='PasswordGen'>
-      <form className='generatorForm'>
+      <form className='generatorForm' onSubmit={handleSubmit}>
         <h1>Generate yoself one mighty fine password</h1>
         <h2>Courtesy of the <a href="https://bost.ocks.org/mike/shuffle/">Fisher-Yates Shuffle</a></h2>
         <div className="inputDiv">
