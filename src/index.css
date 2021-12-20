@@ -297,6 +297,40 @@ footer .credit a {
   width: 75%;
 }
 
+.PasswordGen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PasswordGen .generatorForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #474747;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.PasswordGen .generatorForm .inputDiv {
+  font-size: 2.4rem;
+  margin: 0.5rem 0;
+}
+.PasswordGen .generatorForm .inputDiv input {
+  font-size: 1.6rem;
+  margin: 0 0.75rem;
+  padding: 0.4rem;
+}
+.PasswordGen .generatorForm .inputDiv #length {
+  width: 50px;
+}
+.PasswordGen .generatorForm button {
+  font-size: 2.4rem;
+  padding: 0.5rem 0.75rem;
+  margin: 1rem 0;
+}
+
 @media screen and (min-width: 400px) {
   footer > .contact-info > * > img {
     height: 65px;
