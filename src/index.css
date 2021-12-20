@@ -313,20 +313,31 @@ footer .credit a {
   padding: 2rem;
   border-radius: 10px;
 }
+.PasswordGen .generatorForm h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+.PasswordGen .generatorForm h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.PasswordGen .generatorForm h2 a {
+  color: #dadada;
+}
 .PasswordGen .generatorForm .inputDiv {
   font-size: 2.4rem;
   margin: 0.5rem 0;
 }
 .PasswordGen .generatorForm .inputDiv input {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin: 0 0.75rem;
   padding: 0.4rem;
 }
 .PasswordGen .generatorForm .inputDiv #length {
-  width: 50px;
+  width: 40px;
 }
 .PasswordGen .generatorForm button {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   padding: 0.5rem 0.75rem;
   margin: 1rem 0;
 }
