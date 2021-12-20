@@ -55,8 +55,10 @@ function generatePassword(preferenceObj) {
   return shuffleArray(password);
 }
 
+const defaultPass = generatePassword(defaultPreferences)
+
 export default function PasswordGen() {
-  const [password, setPassword] = useState(generatePassword(defaultPreferences));
+  const [password, setPassword] = useState(defaultPass);
   const [formObj, setFormObj] = useState(defaultPreferences);
 
   function handleInputChange(event) {
