@@ -8,6 +8,19 @@ const defaultPreferences = {
   symbols: true,
 };
 
+function shuffleArray(arr) { // Fisher-Yates shuffle
+  let n = arr.length, temp, i;
+  
+  while (n) { // While there are elements to shuffle
+    i = Math.floor(Math.random() * n--); // Pick a random element
+    temp = arr[n]; // Do the ol' swaperoo
+    arr[n] = arr[i];
+    arr[i] = temp;
+  }
+
+  return arr.join('');
+}
+
 function generatePassword(preferenceObj) {
   let password = [], possible = [];
 
@@ -39,7 +52,7 @@ function generatePassword(preferenceObj) {
   }
 
   // Shuffle array to randomize location of guaranteed characters
-  return password.join('');
+  return shuffleArray(password);
 }
 
 export default function PasswordGen() {
