@@ -1,5 +1,26 @@
 import React, { useState } from 'react';
 
+function generatePassword(preferenceObj) {
+  let password = '';
+  let possible = '';
+  if (preferenceObj.lowercase) {
+    possible += 'abcdefghijklmnopqrstuvwxyz';
+  }
+  if (preferenceObj.uppercase) {
+    possible += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  }
+  if (preferenceObj.numbers) {
+    possible += '0123456789';
+  }
+  if (preferenceObj.special) {
+    possible += '!@#$%^&*()';
+  }
+  for (let i = 0; i < preferenceObj.length; i++) {
+    password += possible.charAt(Math.floor(Math.random() * possible.length));
+  }
+  return password;
+}
+
 export default function PasswordGen() {
   const [password, setPassword] = useState('');
   const [formObj, setFormObj] = useState({
