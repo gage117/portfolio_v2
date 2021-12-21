@@ -106,7 +106,7 @@ export default function PasswordGen() {
           <input type="checkbox" id="symbols" checked={formObj.symbols} onChange={(e) => handleInputChange(e)} />
         </div>
         <button>Generate</button>
-        <h1 id="password">{password}</h1>
+        <h1 id="password">{password} <button id="copy">Copy</button></h1>
       </form>
     </main>
   )
