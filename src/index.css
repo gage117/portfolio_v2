@@ -297,6 +297,89 @@ footer .credit a {
   width: 75%;
 }
 
+.PasswordGen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PasswordGen .generatorForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #474747;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.PasswordGen .generatorForm h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+.PasswordGen .generatorForm h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.PasswordGen .generatorForm h2 a {
+  color: #dadada;
+}
+.PasswordGen .generatorForm .inputDiv {
+  font-size: 2.4rem;
+  margin: 0.5rem 0;
+}
+.PasswordGen .generatorForm .inputDiv input {
+  font-size: 1.4rem;
+  margin: 0 0.75rem;
+  padding: 0.4rem;
+}
+.PasswordGen .generatorForm .inputDiv #length {
+  width: 40px;
+}
+.PasswordGen .generatorForm button {
+  font-size: 2.2rem;
+  padding: 0.5rem 0.75rem;
+  margin: 1rem 0;
+}
+.PasswordGen .generatorForm #passContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.PasswordGen .generatorForm #passContainer #password {
+  margin-right: 1rem;
+}
+.PasswordGen .generatorForm #passContainer .tooltip {
+  position: relative;
+  display: inline-block;
+}
+.PasswordGen .generatorForm #passContainer .tooltip #tooltipText {
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -65px;
+  transition: opacity 0.3s;
+  font-size: 2rem;
+}
+.PasswordGen .generatorForm #passContainer .tooltip #tooltipText::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
 @media screen and (min-width: 400px) {
   footer > .contact-info > * > img {
     height: 65px;
