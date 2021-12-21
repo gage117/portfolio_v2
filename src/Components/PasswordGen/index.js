@@ -60,6 +60,8 @@ const defaultPass = generatePassword(defaultPreferences)
 export default function PasswordGen() {
   const [password, setPassword] = useState(defaultPass);
   const [formObj, setFormObj] = useState(defaultPreferences);
+  const [tooltip, setTooltip] = useState(null);
+  let tooltipTimeout;
 
   function handleInputChange(event) {
     if (event.target.id === "length") {
@@ -81,10 +83,15 @@ export default function PasswordGen() {
   }
 
   function handleCopyClick(pass) {
-    console.log("COPY!!!")
     navigator.clipboard.writeText(pass)
+    setTooltip(true);
   }
 
+  if (tooltip) { // if there's a tooltip rendered, remove it after 1.5sec
+    tooltipTimeout = setTimeout(() => {
+      setTooltip(null);
+    }, 1500)
+  }
   return (
     <main className='PasswordGen'>
       <form className='generatorForm' onSubmit={handleSubmit}>
@@ -114,7 +121,7 @@ export default function PasswordGen() {
         <div id="passContainer">
           <h1 id="password">{password}</h1>
           <div class="tooltip">
-            <span id="tooltipText">Copied</span>
+            {tooltip ? <span id="tooltipText">Copied!</span> : null}
             <button onClick={() => handleCopyClick(password)} type="button">Copy</button>
           </div>
         </div>

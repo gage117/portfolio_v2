@@ -355,7 +355,6 @@ footer .credit a {
   display: inline-block;
 }
 .PasswordGen .generatorForm #passContainer .tooltip #tooltipText {
-  visibility: hidden;
   width: 140px;
   background-color: #555;
   color: #fff;
@@ -366,10 +365,9 @@ footer .credit a {
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  margin-left: -75px;
-  opacity: 0;
+  margin-left: -65px;
   transition: opacity 0.3s;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .PasswordGen .generatorForm #passContainer .tooltip #tooltipText::after {
   content: "";
@@ -380,10 +378,6 @@ footer .credit a {
   border-width: 5px;
   border-style: solid;
   border-color: #555 transparent transparent transparent;
-}
-.PasswordGen .generatorForm #passContainer .tooltip:hover #tooltipText {
-  visibility: visible;
-  opacity: 1;
 }
 
 @media screen and (min-width: 400px) {
