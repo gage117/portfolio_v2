@@ -113,7 +113,10 @@ export default function PasswordGen() {
         <button type="submit">Generate</button>
         <div id="passContainer">
           <h1 id="password">{password}</h1>
-          <button onClick={() => handleCopyClick(password)} type="button">Copy</button>
+          <div class="tooltip">
+            <span id="tooltipText">Copied</span>
+            <button onClick={() => handleCopyClick(password)} type="button">Copy</button>
+          </div>
         </div>
       </form>
     </main>
