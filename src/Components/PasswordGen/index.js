@@ -80,6 +80,11 @@ export default function PasswordGen() {
     setPassword(generatePassword(formObj));
   }
 
+  function handleCopyClick(pass) {
+    console.log("COPY!!!")
+    navigator.clipboard.writeText(pass)
+  }
+
   return (
     <main className='PasswordGen'>
       <form className='generatorForm' onSubmit={handleSubmit}>
@@ -105,8 +110,11 @@ export default function PasswordGen() {
           <label htmlFor="symbols">Symbols</label>
           <input type="checkbox" id="symbols" checked={formObj.symbols} onChange={(e) => handleInputChange(e)} />
         </div>
-        <button>Generate</button>
-        <h1 id="password">{password} <button id="copy">Copy</button></h1>
+        <button type="submit">Generate</button>
+        <div id="passContainer">
+          <h1 id="password">{password}</h1>
+          <button onClick={() => handleCopyClick(password)} type="button">Copy</button>
+        </div>
       </form>
     </main>
   )
