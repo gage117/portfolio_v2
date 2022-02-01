@@ -46,7 +46,7 @@ const projectList = [
 	{
 		name: 'Node.js Video Streaming',
 		screenshot: streamingScreenshot,
-		description: (<span>A Node.js application that streams video from a local directory to a client by piping a <b>readable stream</b> to an <b>HTML5 video element</b> on the client.</span>),
+		description: (<span>A Node.js application that simply streams video from a local directory to a client by piping a <b>readable stream</b> to an <b>HTML5 video element</b> on the client.</span>),
 		repos: {
 			server: 'https://github.com/gage117/video-streaming-nodejs',
 			live: 'https://video-streaming-node-gage.herokuapp.com/'
